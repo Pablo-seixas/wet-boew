@@ -11,6 +11,17 @@
 	@extend %accessible-invisible;
 }
 
+.sr-only {
+	white-space: nowrap;
+}
+
+.sr-only-focusable {
+	&:active,
+	&:focus {
+		white-space: normal;
+	}
+}
+
 .wb-show-onfocus {
 	@extend %accessible-invisible;
 

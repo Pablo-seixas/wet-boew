@@ -9,6 +9,7 @@
 	margin: 0;
 	overflow: hidden;
 	position: absolute;
+	white-space: nowrap;
 	width: 1px;
 }
 
@@ -18,6 +19,7 @@
 	margin: inherit;
 	overflow: inherit;
 	position: static;
+	white-space: normal;
 	width: inherit;
 }
 
